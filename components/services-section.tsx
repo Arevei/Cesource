@@ -51,10 +51,10 @@ export function ServicesSection() {
                   viewport={{ once: true }}
                   className="flex items-start gap-4"
                 >
-                  <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-1" />
+                  <CheckCircle2 className="w-5 h-5 text-[rgba(44,160,160,1)] shrink-0 mt-1" />
                   <Link
                     href={`/services/${service.id}`}
-                    className="font-semibold text-foreground hover:text-primary transition-colors"
+                    className="font-semibold text-foreground hover:text-[rgba(44,160,160,1)] transition-colors"
                   >
                     {service.name}
                   </Link>
@@ -62,9 +62,9 @@ export function ServicesSection() {
               ))}
             </div>
 
-            {/* <Link href="/services" className="bg-black text-white px-10 py-4 text-xs font-bold uppercase tracking-[0.2em] hover:bg-[rgba(44,160,160,1)] transition-colors" >
+            <Link href="/services/project-consultancy" className="bg-black text-white px-10 py-4 text-xs font-bold uppercase tracking-[0.2em] hover:bg-[rgba(44,160,160,1)] transition-colors" >
               Explore Our Expertise
-            </Link> */}
+            </Link>
           </div>
         </div>
       </div>

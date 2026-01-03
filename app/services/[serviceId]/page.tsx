@@ -68,7 +68,7 @@ export default function ServiceDetail() {
             {prevService ? (
               <Link
                 href={`/services/${prevService.id}`}
-                className="flex gap-3 text-muted-foreground hover:text-foreground"
+                className="flex gap-3 text-muted-foreground hover:text-[rgba(44,160,160,1)]"
               >
                 <ArrowLeft className="w-5 h-5" />
                 <div>
@@ -83,7 +83,7 @@ export default function ServiceDetail() {
             {nextService && (
               <Link
                 href={`/services/${nextService.id}`}
-                className="flex gap-3 text-muted-foreground hover:text-foreground text-right"
+                className="flex gap-3 text-muted-foreground hover:text-[rgba(44,160,160,1)] text-right"
               >
                 <div>
                   <p className="text-xs uppercase opacity-60">Next</p>
@@ -123,7 +123,7 @@ export default function ServiceDetail() {
                       transition={{ delay: 0.5 + idx * 0.1 }}
                       className="flex gap-4 p-4 bg-secondary rounded-lg"
                     >
-                      <CheckCircle2 className="w-6 h-6 text-primary mt-1" />
+                      <CheckCircle2 className="w-6 h-6 text-[rgba(44,160,160,1)] mt-1" />
                       <span className="font-medium">{feature}</span>
                     </motion.div>
                   ))}
@@ -135,7 +135,7 @@ export default function ServiceDetail() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.8 }}
-                className="bg-primary p-8 rounded-lg text-primary-foreground"
+                className="bg-[rgba(44,160,160,1)] p-8 rounded-lg text-primary-foreground"
               >
                 <h3 className="text-2xl font-bold mb-4">
                   Ready to get started?
@@ -147,7 +147,7 @@ export default function ServiceDetail() {
 
                 <Link
                   href="/#contact"
-                  className="inline-flex items-center gap-2 bg-primary-foreground text-primary px-6 py-3 font-bold uppercase tracking-widest text-sm hover:opacity-90"
+                  className="inline-flex items-center gap-2 bg-primary-foreground text-[rgba(44,160,160,1)] px-6 py-3 font-bold uppercase tracking-widest text-sm hover:opacity-90"
                 >
                   Get in Touch
                   <ArrowRight className="w-4 h-4" />
@@ -171,7 +171,7 @@ export default function ServiceDetail() {
                         href={`/services/${service.id}`}
                         className={`block py-2 px-3 rounded ${
                           service.id === serviceId
-                            ? "bg-primary text-primary-foreground font-semibold"
+                            ? "bg-[rgba(44,160,160,1)] text-primary-foreground font-semibold"
                             : "hover:bg-background text-muted-foreground hover:text-foreground"
                         }`}
                       >
@@ -203,7 +203,7 @@ export default function ServiceDetail() {
             {prevService ? (
               <Link
                 href={`/services/${prevService.id}`}
-                className="flex gap-3 text-muted-foreground hover:text-foreground"
+                className="flex gap-3 text-muted-foreground hover:text-[rgba(44,160,160,1)]"
               >
                 <ArrowLeft className="w-5 h-5" />
                 <div>
@@ -218,7 +218,7 @@ export default function ServiceDetail() {
             {nextService && (
               <Link
                 href={`/services/${nextService.id}`}
-                className="flex gap-3 text-muted-foreground hover:text-foreground text-right"
+                className="flex gap-3 text-muted-foreground hover:text-[rgba(44,160,160,1)] text-right"
               >
                 <div>
                   <p className="text-xs uppercase opacity-60">Next</p>
