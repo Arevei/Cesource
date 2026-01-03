@@ -7,6 +7,7 @@ import { SectorsGrid } from "@/components/sectors-grid"
 import { ServicesSection } from "@/components/services-section"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
+import { ReviewsCarousel } from "@/components/reviews-carousel"
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
 
       <SectorsGrid />
       <ServicesSection />
+      <ReviewsCarousel/>
 
       <ContactSection />
 

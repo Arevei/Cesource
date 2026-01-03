@@ -4,14 +4,14 @@ import { motion } from "framer-motion"
 import { Building2, Train, Zap, Cloud, Home, Users, Hammer, Lightbulb } from "lucide-react"
 
 const sectors = [
-  { name: "Urban & Regional Development", icon: Building2 },
-  { name: "Transportation & Mobility", icon: Train },
-  { name: "E-Mobility Solutions", icon: Zap },
-  { name: "Climate Change Adaptation", icon: Cloud },
-  { name: "Infrastructure Engineering", icon: Home },
-  { name: "Social Development", icon: Users },
-  { name: "Construction & Utility", icon: Hammer },
-  { name: "Innovation & R&D", icon: Lightbulb },
+  { name: "Building and Infrastructure", icon: Building2 },
+  { name: "Transportation and E-Mobility", icon: Train },
+  { name: "Construction and Utility", icon: Zap },
+  { name: "Smart City", icon: Cloud },
+  { name: "Green Energy", icon: Home },
+  { name: "Social and Economic", icon: Users },
+  { name: "Net Zero Emissions and Climate Change", icon: Hammer },
+  { name: "Innovation", icon: Lightbulb },
 ]
 
 export function SectorsGrid() {
@@ -26,8 +26,7 @@ export function SectorsGrid() {
             </h3>
           </div>
           <p className="text-muted-foreground max-w-sm mb-2">
-            Cesource Technical is focused on contributing Engineering and Consulting services that shape tomorrow's
-            infrastructure.
+          Cesource Technical is focused on contributing Engineering and Consulting services that shape tomorrow’s sustainable, resilient infrastructure and design with innovation and integrity.
           </p>
         </div>
 

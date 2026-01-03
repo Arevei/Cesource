@@ -4,10 +4,11 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import { Menu, Globe } from "lucide-react"
 import { cn } from "@/lib/utils"
+import { usePathname } from "next/navigation"
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
-
+  const pathname = usePathname()
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50)
@@ -20,7 +21,7 @@ export function Navbar() {
     <nav
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-500",
-        isScrolled ? "bg-[rgba(44,160,160,1)] py-4 shadow-lg" : "bg-transparent py-6",
+        isScrolled || (pathname!=="/" || pathname.startsWith("/services") ) ? "bg-[rgba(44,160,160,1)] py-4 shadow-lg" : "bg-transparent py-6",
       )}
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
@@ -33,7 +34,7 @@ export function Navbar() {
             {[
               { name: "Home", href: "/" },
               { name: "About Us", href: "#about" },
-              { name: "Services", href: "#services" },
+              { name: "Services", href: "/services" },
               { name: "Sectors", href: "#sectors" },
               { name: "Contact", href: "#contact" },
             ].map((item) => (
@@ -50,9 +51,9 @@ export function Navbar() {
             <Globe className="w-4 h-4" />
             GLOBAL | EN
           </div>
-          <button className="hidden md:flex items-center gap-2 bg-white text-[rgba(44,160,160,1)] px-6 py-2.5 text-xs font-bold uppercase tracking-widest hover:bg-white/90 transition-all hover:scale-105 active:scale-95">
+          <Link  href="/#contact" className="hidden md:flex items-center gap-2 bg-white text-[rgba(44,160,160,1)] px-6 py-2.5 text-xs font-bold uppercase tracking-widest hover:bg-white/90 transition-all hover:scale-105 active:scale-95">
             Let's Talk
-          </button>
+          </Link>
           <Menu className="w-6 h-6 cursor-pointer lg:hidden" />
         </div>
       </div>
