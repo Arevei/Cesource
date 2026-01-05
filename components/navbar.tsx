@@ -38,7 +38,7 @@ export function Navbar() {
               { name: "Sectors", href: "/#sectors" },
               { name: "Contact", href: "/#contact" },
             ].map((item) => (
-              <Link key={item.name} href={item.href} className="relative group py-2" scroll={true}>
+              <Link key={item.name} href={item.href} className="relative group py-2 scroll-smooth" scroll={true}>
                 <span>{item.name}</span>
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full" />
               </Link>

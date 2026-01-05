@@ -16,7 +16,7 @@ const sectors = [
 
 export function SectorsGrid() {
   return (
-    <section className="py-32 bg-white">
+    <section id="sectors" className="py-32 bg-white">
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
           <div className="max-w-2xl">
