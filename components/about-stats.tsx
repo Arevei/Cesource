@@ -55,13 +55,14 @@ export function AboutStats() {
     <section id="about" className="py-24 bg-white overflow-hidden">
       <div className="container mx-auto px-6">
         <div className="flex items-center gap-3 mb-6">
-            <h2 className="text-sm font-bold tracking-[0.2em] text-[rgba(44,160,160,1)] uppercase mb-6">About Us</h2>
+            
             </div>
         <div className="flex flex-col lg:flex-row gap-16 mb-20">
           <div className="lg:w-1/3">
             
           </div>
           <div className="lg:w-2/3 space-y-8">
+          <h2 className="text-sm font-bold tracking-[0.2em] text-[rgba(44,160,160,1)] uppercase mb-6">About Us</h2>
             <h3 className="text-4xl md:text-5xl font-bold leading-tight">
             We will provide you the best work you’ve always envisioned.
             </h3>

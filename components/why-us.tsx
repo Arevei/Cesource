@@ -27,7 +27,7 @@ export function WhyUs() {
             </div>
             {/* Dot pattern deco */}
             <div className="absolute -bottom-10 -left-10 grid grid-cols-6 gap-2 opacity-20 hidden md:grid">
-              {Array.from({ length: 36 }).map((_, i) => (
+              {Array.from({ length: 100 }).map((_, i) => (
                 <div key={i} className="w-2 h-2 rounded-full bg-[rgba(44,160,160,1)]" />
               ))}
             </div>
@@ -36,17 +36,12 @@ export function WhyUs() {
           <div className="space-y-8 order-1 lg:order-2">
             <span className="text-[rgba(44,160,160,1)] font-bold tracking-[0.3em] uppercase block">Why Us</span>
             <h2 className="text-4xl md:text-5xl font-bold leading-tight">
-              Engineering capabilities and journey to excellence
+            Engineering Capabilities and Journey to Excellence
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              As a progressive business, committed to doing the right thing, Cesource recognises the urgency of the
-              climate change agenda and champions the role we have to play in decarbonising the economy for a greener,
-              more sustainable future.
+            Through a client-centric approach, ethical practices, and timely project delivery, we have steadily strengthened our reputation as a dependable engineering and consultancy partner. Our pursuit of excellence is ongoing, as we strive to innovate, expand our capabilities, and contribute meaningfully to sustainable development and overall growth.
             </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              We work with clients to deliver low and net zero projects and work with suppliers and design consultants
-              to help everyone in the industry reach their net zero targets.
-            </p>
+            
           </div>
         </div>
       </div>

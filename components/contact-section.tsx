@@ -11,23 +11,21 @@ export function ContactSection() {
             <div>
               <h2 className="text-4xl font-bold mb-6">Let's Talk</h2>
               <p className="text-lg text-muted-foreground leading-relaxed max-w-md">
-                We've found that we deliver the greatest value to our clients when we establish ongoing relationships
-                that allow us to materially contribute to their long-term success.
+              Our greatest value emerges through enduring partnerships, where we contribute meaningfully to our clients’ long-term success.
               </p>
             </div>
 
             <div className="space-y-6">
               <div className="flex items-center gap-3 text-[rgba(44,160,160,1)] font-bold cursor-pointer">
                 <ChevronDown className="w-5 h-5" />
-                <span>Visit us personally</span>
+                <span>Visit us :</span>
               </div>
 
               <div className="pl-8 space-y-4">
                 <div className="flex items-start gap-4">
                   <MapPin className="w-5 h-5 text-gray-400 shrink-0 mt-1" />
                   <p className="text-gray-600">
-                    Plot No. 123, Tech Hub, Sector 5<br />
-                    Bhubaneswar, Odisha, India.
+                  Sandanpur Road, Near Kumhrar, Patna - 800006, Bihar, India
                   </p>
                 </div>
 

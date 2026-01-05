@@ -16,16 +16,14 @@ export function VisionMission() {
               <div className="bg-white p-12 shadow-sm hover:shadow-xl transition-all border-l-4 border-[rgba(44,160,160,1)]">
                 <h3 className="text-2xl font-bold mb-6">Vision</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Our Vision is to be one of the prestigious Building Construction and Infrastructure organizations
-                  providing lasting edifice for our clients, with world-class technology at a competitive cost.
+                Emerge as one of the leading and most trusted engineering and consultancy solution providers across the nation by consistently delivering innovative, reliable, and high-quality services. We aim to set industry benchmarks through our commitment to excellence, ethical practices, and client-centric approach, supported by a highly skilled, experienced, and dedicated workforce.
                 </p>
               </div>
 
               <div className="bg-white p-12 shadow-sm hover:shadow-xl transition-all border-l-4 border-[rgba(44,160,160,1)]">
                 <h3 className="text-2xl font-bold mb-6">Mission</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Our mission as an organization is to bridge the gap between technical complexity and practical
-                  execution in terms of quality product and reliable service delivery.
+                To meet and exceed clients’ requirements by delivering cost-effective, efficient, and dynamic solutions tailored to their specific needs. Our approach focuses on understanding client objectives in depth, optimizing resources, and applying innovative methodologies to ensure maximum value, long-term reliability, and complete client satisfaction across all engineering and consultancy services.
                 </p>
               </div>
             </div>

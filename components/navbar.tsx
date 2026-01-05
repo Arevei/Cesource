@@ -33,12 +33,12 @@ export function Navbar() {
           <div className="hidden lg:flex items-center gap-10 text-sm font-semibold text-white/90">
             {[
               { name: "Home", href: "/" },
-              { name: "About Us", href: "#about" },
+              { name: "About Us", href: "/#about" },
               { name: "Services", href: "/services" },
-              { name: "Sectors", href: "#sectors" },
-              { name: "Contact", href: "#contact" },
+              { name: "Sectors", href: "/#sectors" },
+              { name: "Contact", href: "/#contact" },
             ].map((item) => (
-              <Link key={item.name} href={item.href} className="relative group py-2">
+              <Link key={item.name} href={item.href} className="relative group py-2" scroll={true}>
                 <span>{item.name}</span>
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-white transition-all duration-300 group-hover:w-full" />
               </Link>

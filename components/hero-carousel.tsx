@@ -9,30 +9,30 @@ import Image from "next/image"
 const slides = [
   {
     id: 1,
-    title: "Engineering the Future of Infrastructure",
+    title: "Engineering the Future of Building and Infrastructure",
     subtitle: "URBAN AND REGIONAL DEVELOPMENT",
     description: "Creating sustainable, technology-driven spaces that redefine modern living and work environments.",
     video: "/b1.jpg",
   },
   {
     id: 2,
-    title: "Seamless Mobility & Transportation",
-    subtitle: "TRANSPORTATION AND MOBILITY",
+    title: "Seamless Transportation and E-Mobility ",
+    subtitle: "Digital Transformation and Disruptive Innovation",
     description: "Innovating transit systems to ensure smoother, faster, and more efficient movement across borders.",
     video: "/b2.jpg",
   },
   {
     id: 3,
-    title: "Pioneering E-Mobility Solutions",
-    subtitle: "E-MOBILITY & INNOVATION",
+    title: "Socio-Economic Development",
+    subtitle: "People, Economy and Growth",
     description:
-      "Leading the transition to electric transportation with integrated technology and infrastructure support.",
+      "Empowering communities through inclusive initiatives and capacity building, strengthening local economies by creating sustainable livelihoods, and shaping a resilient future. ",
     video: "/b2.jpg",
   },
   {
     id: 4,
     title: "Adapting to Climate Change",
-    subtitle: "CLIMATE CHANGE & INFRASTRUCTURE",
+    subtitle: "Net Zero Emissions and Sustainability",
     description: "Designing resilient infrastructure that withstands environmental challenges for future generations.",
     video: "/b3.jpg",
   },

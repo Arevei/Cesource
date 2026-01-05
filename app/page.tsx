@@ -14,7 +14,7 @@ export default function Home() {
     <main className="min-h-screen">
       <Navbar />
       <HeroCarousel />
-
+      <div className=" container mx-auto">
       <AboutStats />
       <WhyUs />
       <VisionMission />
@@ -25,6 +25,7 @@ export default function Home() {
 
       <ContactSection />
 
+      </div>
       <Footer />
     </main>
   )
