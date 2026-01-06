@@ -5,7 +5,7 @@ import { notFound, useParams } from "next/navigation";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { motion } from "framer-motion";
-import { CheckCircle2, ArrowRight, ArrowLeft } from "lucide-react";
+import { CheckCircle2, ArrowRight, ArrowLeft, Phone, Mail } from "lucide-react";
 import { services } from "@/constants/services";
 
 
@@ -171,7 +171,7 @@ export default function ServiceDetail() {
                         href={`/services/${service.id}`}
                         className={`block py-2 px-3 rounded ${
                           service.id === serviceId
-                            ? "bg-[rgba(44,160,160,1)] text-primary-foreground font-semibold"
+                            ? "bg-[#2ca0a0] text-primary-foreground font-semibold"
                             : "hover:bg-background text-muted-foreground hover:text-foreground"
                         }`}
                       >
@@ -192,8 +192,27 @@ export default function ServiceDetail() {
                 <p className="text-background/70 mb-6">
                   Our experts are ready to assist you.
                 </p>
-                <p>📞 +91 98765 43210</p>
-                <p>✉️ info@cesourcetechnical.com</p>
+                <div className="space-y-4 text-sm text-background/60">
+              <div className="flex items-center gap-3">
+                <Mail className="w-4 h-4 text-primary" />
+               <Link
+                  href="mailto:info@csetepl.com"
+                  className="hover:text-primary transition-colors"
+                >
+                  info@csetepl.com
+                </Link>
+              </div>
+
+              <div className="flex items-center gap-3">
+                <Phone className="w-4 h-4 text-primary" />
+               <Link
+                  href="tel:+919608535740"
+                  className="hover:text-primary transition-colors"
+                >
+                  +91 96085 35740
+                </Link>
+              </div>
+            </div>
               </motion.div>
             </div>
           </div>

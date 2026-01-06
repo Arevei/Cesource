@@ -2,26 +2,40 @@ export const services = [
   {
     id: "project-consultancy",
     name: "Project Consultancy",
-    shortDesc: "Expert guidance for your project needs",
-    fullDesc: "Our Project Consultancy services provide comprehensive support throughout the project lifecycle. From initial concept development to final delivery, our experienced consultants offer strategic guidance, technical expertise, and practical solutions to ensure project success.",
+    shortDesc: "End-to-End Expert Support for Your Project Requirements",
+    fullDesc: "Our Project Consultancy services provide comprehensive support across the entire project lifecycle. From initial concept development through final delivery, our experienced consultants deliver strategic guidance, technical expertise, and practical solutions to ensure successful project outcomes.",
     features: [
-      "Feasibility studies and project assessments",
-      "Technical specifications and documentation",
-      "Vendor evaluation and selection",
-      "Project scoping and planning",
-      "Stakeholder management strategies"
+      "Technical and Project Support",
+      "Project Structuring",
+      "Civil & Structural Engineering",
+      "Technical Advisory and Documentation",
+      "Feasibility and Preliminary Study",
+      "Contract & Claim Management"
+    ]
+  },
+  {
+    id: "advisory-capacity",
+    name: "Advisory and Capacity Building",
+    shortDesc: "Strengthening Organizational Capabilities for Sustainable Growth",
+    fullDesc: "We offer advisory services and capacity-building programs designed to strengthen organizational capabilities. Our experts work alongside your teams to transfer knowledge, develop critical skills, and build lasting institutional capacity.",
+    features: [
+      "Strategic advisory services",
+      "Training and development programs",
+      "Knowledge transfer initiatives",
+      "Organizational development",
+      "Change management support"
     ]
   },
   {
     id: "technology-infrastructure",
     name: "Technology and Infrastructure Support",
-    shortDesc: "Modern tech solutions for infrastructure",
-    fullDesc: "We deliver cutting-edge technology solutions that enhance infrastructure performance and longevity. Our team integrates the latest innovations in smart systems, IoT, and digital transformation to create resilient, future-ready infrastructure.",
+    shortDesc: "Modern Tech Solutions for Infrastructure and System",
+    fullDesc: "We support cutting-edge technology solutions that enhance infrastructure and system performance while extending operational longevity.",
     features: [
-      "Smart infrastructure implementation",
+      "Local Infrastructure Support",
       "IoT integration and monitoring systems",
       "Digital twin development",
-      "Technology roadmap planning",
+      "Technology Roadmap Planning",
       "Infrastructure modernization"
     ]
   },
@@ -31,11 +45,12 @@ export const services = [
     shortDesc: "End-to-end project lifecycle management",
     fullDesc: "Our comprehensive management services cover every aspect of project delivery. From strategic planning to procurement and execution, we ensure projects are delivered on time, within budget, and to the highest quality standards.",
     features: [
-      "Project planning and scheduling",
-      "Resource allocation and optimization",
-      "Procurement strategy and management",
-      "Programme governance frameworks",
-      "Performance monitoring and reporting"
+      "Project Planning and Scheduling",
+      "Project Monitoring and Reporting",
+      "Resource Planning, Allocation and Optimization",
+      "Construction Monitoring & Scheduling (Primavera/MSP)",
+      "Procurement Strategy and Management",
+      "Programme Governance Framework"
     ]
   },
   {
@@ -44,7 +59,7 @@ export const services = [
     shortDesc: "Seamless integration of complex systems",
     fullDesc: "We specialize in integrating diverse systems and technologies to create cohesive, efficient solutions. Our system integration expertise ensures seamless communication between different platforms, maximizing operational efficiency.",
     features: [
-      "Multi-system integration planning",
+      "Multi-System Integration planning and Support",
       "API development and management",
       "Legacy system modernization",
       "Data integration solutions",
@@ -57,36 +72,33 @@ export const services = [
     shortDesc: "Accurate cost estimation and control",
     fullDesc: "Our cost consultancy services provide accurate financial planning and control throughout your project. We deliver detailed cost estimates, value engineering, and ongoing financial monitoring to optimize project economics.",
     features: [
-      "Detailed cost estimation",
-      "Value engineering analysis",
-      "Budget management and tracking",
-      "Life cycle cost analysis",
-      "Financial risk assessment"
+      "Detailed cost estimationDetailed Cost Estimation, Budgeting and BOQ",
+      "Cost Control & Administration",
+      "Value Engineering Analysis",
     ]
   },
   {
     id: "quality-safety",
     name: "Quality and Safety Audit",
-    shortDesc: "Ensuring compliance and excellence",
-    fullDesc: "We conduct thorough quality and safety audits to ensure your projects meet all regulatory requirements and industry standards. Our audits identify risks, improve processes, and promote a culture of safety and quality.",
+    shortDesc: "Our quality and safety audit services ensure full compliance with regulatory requirements and industry standards. Through systematic audits, we identify risks, improve operational processes, and promote a culture of safety and quality excellence.",
     features: [
-      "Comprehensive safety audits",
-      "Quality management system reviews",
-      "Regulatory compliance assessments",
+      "Comprehensive Safety Audit",
+      "Quality Management System Audit",
+      "Regulatory Compliance Assessment",
       "Safety training programs",
-      "Continuous improvement recommendations"
+      "Continuous Improvement Recommendation"
     ]
   },
   {
     id: "risk-management",
     name: "Risk Management",
     shortDesc: "Proactive risk identification and mitigation",
-    fullDesc: "Our risk management services help identify, assess, and mitigate potential risks before they impact your project. We develop comprehensive risk strategies that protect investments and ensure project continuity.",
+    fullDesc: "We provide proactive risk management services to identify, assess, and mitigate potential risks early. Our comprehensive risk strategies protect investments and ensure project continuity.",
     features: [
-      "Risk identification and assessment",
-      "Mitigation strategy development",
-      "Risk monitoring and reporting",
-      "Contingency planning",
+      "Risk Identification and Assessment",
+      "Mitigation Strategy Development",
+      "Risk Monitoring and Reporting",
+      "Contingency Planning",
       "Insurance and claims support"
     ]
   },
@@ -94,13 +106,12 @@ export const services = [
     id: "assessment-survey",
     name: "Assessment, Study, Investigation and Survey",
     shortDesc: "Thorough research and analysis",
-    fullDesc: "We provide detailed assessments, studies, and surveys that form the foundation for informed decision-making. Our investigations deliver accurate data and insights essential for project planning and execution.",
+    fullDesc: "We provide detailed assessments, studies, and surveys that form a strong foundation for informed decision-making. Our investigations deliver accurate data and actionable insights essential for effective project and business execution.",
     features: [
-      "Site surveys and assessments",
-      "Environmental impact studies",
-      "Structural investigations",
-      "Market research and analysis",
-      "Technical feasibility studies"
+      "Site Survey and Assessment",
+      "Project and Programme Assessment/Investigation",
+      "Ecology and Environmental Study/Assessment",
+      "Technical and Feasibility study"
     ]
   },
   {
@@ -116,17 +127,5 @@ export const services = [
       "Executive summary preparation"
     ]
   },
-  {
-    id: "advisory-capacity",
-    name: "Advisory and Capacity Building",
-    shortDesc: "Building organizational capabilities",
-    fullDesc: "We offer advisory services and capacity building programs that strengthen organizational capabilities. Our experts work alongside your teams to transfer knowledge, develop skills, and build lasting institutional capacity.",
-    features: [
-      "Strategic advisory services",
-      "Training and development programs",
-      "Knowledge transfer initiatives",
-      "Organizational development",
-      "Change management support"
-    ]
-  },
+  
 ];

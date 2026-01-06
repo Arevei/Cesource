@@ -120,7 +120,7 @@ export function Footer() {
           {/* Let's Talk */}
           <div>
             <h3 className="text-xs font-bold uppercase tracking-widest text-background/40 mb-8">
-              Let’s Talk
+            Contact Us
             </h3>
 
             <div className="space-y-4 text-sm text-background/60">

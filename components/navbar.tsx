@@ -5,6 +5,7 @@ import Link from "next/link"
 import { Menu, Globe } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { usePathname } from "next/navigation"
+import Image from "next/image"
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -27,7 +28,7 @@ export function Navbar() {
       <div className="container mx-auto px-6 flex items-center justify-between">
         <div className="flex items-center gap-12">
           <Link href="/" className="text-2xl font-bold text-white tracking-tighter">
-            CESOURCE<span className="font-light tracking-normal ml-1">TECHNICAL</span>
+            <Image src="/ce.jpg" alt="Logo" width={200} height={200}/>
           </Link>
 
           <div className="hidden lg:flex items-center gap-10 text-sm font-semibold text-white/90">
