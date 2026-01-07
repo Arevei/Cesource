@@ -14,32 +14,6 @@ export const services = [
     ]
   },
   {
-    id: "advisory-capacity",
-    name: "Advisory and Capacity Building",
-    shortDesc: "Strengthening Organizational Capabilities for Sustainable Growth",
-    fullDesc: "We offer advisory services and capacity-building programs designed to strengthen organizational capabilities. Our experts work alongside your teams to transfer knowledge, develop critical skills, and build lasting institutional capacity.",
-    features: [
-      "Strategic advisory services",
-      "Training and development programs",
-      "Knowledge transfer initiatives",
-      "Organizational development",
-      "Change management support"
-    ]
-  },
-  {
-    id: "technology-infrastructure",
-    name: "Technology and Infrastructure Support",
-    shortDesc: "Modern Tech Solutions for Infrastructure and System",
-    fullDesc: "We support cutting-edge technology solutions that enhance infrastructure and system performance while extending operational longevity.",
-    features: [
-      "Local Infrastructure Support",
-      "IoT integration and monitoring systems",
-      "Digital twin development",
-      "Technology Roadmap Planning",
-      "Infrastructure modernization"
-    ]
-  },
-  {
     id: "project-management",
     name: "Planning, Project, Programme and Procurement Management",
     shortDesc: "End-to-end project lifecycle management",
@@ -53,19 +27,7 @@ export const services = [
       "Programme Governance Framework"
     ]
   },
-  {
-    id: "system-integration",
-    name: "System Integration",
-    shortDesc: "Seamless integration of complex systems",
-    fullDesc: "We specialize in integrating diverse systems and technologies to create cohesive, efficient solutions. Our system integration expertise ensures seamless communication between different platforms, maximizing operational efficiency.",
-    features: [
-      "Multi-System Integration planning and Support",
-      "API development and management",
-      "Legacy system modernization",
-      "Data integration solutions",
-      "Testing and validation"
-    ]
-  },
+ 
   {
     id: "cost-consultancy",
     name: "Cost Consultancy",
@@ -75,18 +37,6 @@ export const services = [
       "Detailed cost estimationDetailed Cost Estimation, Budgeting and BOQ",
       "Cost Control & Administration",
       "Value Engineering Analysis",
-    ]
-  },
-  {
-    id: "quality-safety",
-    name: "Quality and Safety Audit",
-    shortDesc: "Our quality and safety audit services ensure full compliance with regulatory requirements and industry standards. Through systematic audits, we identify risks, improve operational processes, and promote a culture of safety and quality excellence.",
-    features: [
-      "Comprehensive Safety Audit",
-      "Quality Management System Audit",
-      "Regulatory Compliance Assessment",
-      "Safety training programs",
-      "Continuous Improvement Recommendation"
     ]
   },
   {
@@ -102,18 +52,7 @@ export const services = [
       "Insurance and claims support"
     ]
   },
-  {
-    id: "assessment-survey",
-    name: "Assessment, Study, Investigation and Survey",
-    shortDesc: "Thorough research and analysis",
-    fullDesc: "We provide detailed assessments, studies, and surveys that form a strong foundation for informed decision-making. Our investigations deliver accurate data and actionable insights essential for effective project and business execution.",
-    features: [
-      "Site Survey and Assessment",
-      "Project and Programme Assessment/Investigation",
-      "Ecology and Environmental Study/Assessment",
-      "Technical and Feasibility study"
-    ]
-  },
+  
   {
     id: "project-report",
     name: "Project Report Preparation & Analytics",
@@ -127,5 +66,70 @@ export const services = [
       "Executive summary preparation"
     ]
   },
+  {
+    id: "technology-infrastructure",
+    name: "Technology and Infrastructure Support",
+    shortDesc: "Modern Tech Solutions for Infrastructure and System",
+    fullDesc: "We support cutting-edge technology solutions that enhance infrastructure and system performance while extending operational longevity.",
+    features: [
+      "Local Infrastructure Support",
+      "IoT integration and monitoring systems",
+      "Digital twin development",
+      "Technology Roadmap Planning",
+      "Infrastructure modernization"
+    ]
+  },
   
+  {
+    id: "system-integration",
+    name: "System Integration",
+    shortDesc: "Seamless integration of complex systems",
+    fullDesc: "We specialize in integrating diverse systems and technologies to create cohesive, efficient solutions. Our system integration expertise ensures seamless communication between different platforms, maximizing operational efficiency.",
+    features: [
+      "Multi-System Integration planning and Support",
+      "API development and management",
+      "Legacy system modernization",
+      "Data integration solutions",
+      "Testing and validation"
+    ]
+  },
+  
+  {
+    id: "quality-safety",
+    name: "Quality and Safety Audit",
+    shortDesc: "Our quality and safety audit services ensure full compliance with regulatory requirements and industry standards. Through systematic audits, we identify risks, improve operational processes, and promote a culture of safety and quality excellence.",
+    features: [
+      "Comprehensive Safety Audit",
+      "Quality Management System Audit",
+      "Regulatory Compliance Assessment",
+      "Safety training programs",
+      "Continuous Improvement Recommendation"
+    ]
+  },
+  
+  {
+    id: "assessment-survey",
+    name: "Assessment, Study, Investigation and Survey",
+    shortDesc: "Thorough research and analysis",
+    fullDesc: "We provide detailed assessments, studies, and surveys that form a strong foundation for informed decision-making. Our investigations deliver accurate data and actionable insights essential for effective project and business execution.",
+    features: [
+      "Site Survey and Assessment",
+      "Project and Programme Assessment/Investigation",
+      "Ecology and Environmental Study/Assessment",
+      "Technical and Feasibility study"
+    ]
+  },
+  {
+    id: "advisory-capacity",
+    name: "Advisory and Capacity Building",
+    shortDesc: "Strengthening Organizational Capabilities for Sustainable Growth",
+    fullDesc: "We offer advisory services and capacity-building programs designed to strengthen organizational capabilities. Our experts work alongside your teams to transfer knowledge, develop critical skills, and build lasting institutional capacity.",
+    features: [
+      "Strategic advisory services",
+      "Training and development programs",
+      "Knowledge transfer initiatives",
+      "Organizational development",
+      "Change management support"
+    ]
+  },
 ];

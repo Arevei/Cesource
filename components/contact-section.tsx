@@ -4,6 +4,7 @@ import { ChevronDown, Loader2, Mail, MapPin, Phone } from "lucide-react"
 import Link from "next/link"
 import { useState } from "react";
 import { useToast } from "./ui/use-toast";
+import GoogleMapEmbed from "./GoogleMapEmbed";
 
 export function ContactSection() {
   const { toast } = useToast();
@@ -166,6 +167,8 @@ export function ContactSection() {
             </button>
           </form>
         </div>
+        <GoogleMapEmbed />
+        
       </div>
     </section>
   )

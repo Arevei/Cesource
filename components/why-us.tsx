@@ -7,14 +7,14 @@ export function WhyUs() {
         <div className="grid lg:grid-cols-2 gap-20 items-center">
           <div className="relative order-2 lg:order-1">
             <div className="grid grid-cols-12 gap-4">
-              <div className="col-span-8 relative">
+              <div className="col-span-8 relative h-40">
                 <img
-                  src="/engineering-construction-project.jpg"
+                  src="/why1.jpg"
                   alt="Engineering Project"
-                  className="w-full aspect-[3/4] object-cover"
+                  className="w-full aspect-[3/4] h-86 object-cover"
                 />
                 <div className="absolute -top-10 -right-10 w-40 h-40 bg-white p-4 hidden md:block">
-                  <img src="/architectural-plan.jpg" alt="Plan" className="w-full h-full object-cover" />
+                  <img src="/why2.jpg" alt="Plan" className="w-full h-full object-cover" />
                 </div>
               </div>
               <div className="col-span-4 mt-20">
@@ -27,6 +27,12 @@ export function WhyUs() {
             </div>
             {/* Dot pattern deco */}
             <div className="absolute -bottom-10 -left-10 grid grid-cols-6 gap-2 opacity-20 hidden md:grid">
+              {Array.from({ length: 100 }).map((_, i) => (
+                <div key={i} className="w-2 h-2 rounded-full bg-[rgba(44,160,160,1)]" />
+              ))}
+            </div>
+
+            <div className="absolute -top-10 -right-10 grid grid-cols-6 gap-2 opacity-20 hidden md:grid">
               {Array.from({ length: 100 }).map((_, i) => (
                 <div key={i} className="w-2 h-2 rounded-full bg-[rgba(44,160,160,1)]" />
               ))}

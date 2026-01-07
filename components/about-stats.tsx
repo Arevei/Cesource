@@ -58,8 +58,8 @@ export function AboutStats() {
             
             </div>
         <div className="flex flex-col lg:flex-row gap-16 mb-20">
-          <div className="lg:w-1/3">
-            
+          <div className="lg:w-1/3 mx-auto">
+            <img src="/about.png" alt="" />
           </div>
           <div className="lg:w-2/3 space-y-8">
           <h2 className="text-sm font-bold tracking-[0.2em] text-[rgba(44,160,160,1)] uppercase mb-6">About Us</h2>

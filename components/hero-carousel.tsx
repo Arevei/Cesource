@@ -23,11 +23,11 @@ const slides = [
   },
   {
     id: 3,
-    title: "Socio-Economic Development",
+    title: "Empowering Socio-Economic Development",
     subtitle: "People, Economy and Growth",
     description:
       "Empowering communities through inclusive initiatives and capacity building, strengthening local economies by creating sustainable livelihoods, and shaping a resilient future. ",
-    video: "/b2.jpg",
+    video: "/b4.png",
   },
   {
     id: 4,

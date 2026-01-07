@@ -5,21 +5,21 @@ import { motion } from "framer-motion"
 
 const reviews = [
   {
-    name: "John Deo",
+    name: "Damian Alex",
     role: "Project Director",
     image: "/professional-portrait-1.png",
     content:
       "Cesource Technical Private Limited delivered exceptional engineering solutions for our urban development project. Their attention to detail and commitment to quality are truly remarkable.",
   },
   {
-    name: "Doe Deo",
+    name: "R Saha",
     role: "Infrastructure Lead",
     image: "/professional-portrait-2.png",
     content:
       "The consultancy services provided were top-notch. They helped us navigate complex regulatory requirements and provided innovative infrastructure supports.",
   },
   {
-    name: "Andrew Deo",
+    name: "Aashish Majumdar",
     role: "Site Manager",
     image: "/professional-portrait-3.png",
     content:

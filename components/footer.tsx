@@ -76,7 +76,7 @@ export function Footer() {
             <ul className="space-y-4 text-sm font-medium">
               <li>
                 <Link href="/" className="hover:text-primary transition-colors">
-                  Home
+                Building and Infrastructure                                                              
                 </Link>
               </li>
               <li>
@@ -84,7 +84,7 @@ export function Footer() {
                   href="/#about"
                   className="hover:text-primary transition-colors"
                 >
-                  About Us
+                  Transportation and E-Mobility                 
                 </Link>
               </li>
               <li>
@@ -92,7 +92,47 @@ export function Footer() {
                   href="/#contact"
                   className="hover:text-primary transition-colors"
                 >
-                  Contact Us
+                  Construction and Utility                                                         
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/#contact"
+                  className="hover:text-primary transition-colors"
+                >
+                  Smart City                             
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/#contact"
+                  className="hover:text-primary transition-colors"
+                >
+                  Green Energy      
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/#contact"
+                  className="hover:text-primary transition-colors"
+                >
+                  Social and Economic
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/#contact"
+                  className="hover:text-primary transition-colors"
+                >
+                  Net Zero Emissions and Climate Change                         
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/#contact"
+                  className="hover:text-primary transition-colors"
+                >
+                  Innovation                        
                 </Link>
               </li>
             </ul>

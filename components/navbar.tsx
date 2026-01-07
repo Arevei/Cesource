@@ -28,7 +28,7 @@ export function Navbar() {
       <div className="container mx-auto px-6 flex items-center justify-between">
         <div className="flex items-center gap-12">
           <Link href="/" className="text-2xl font-bold text-white tracking-tighter">
-            <Image src="/ce.jpg" alt="Logo" width={200} height={200}/>
+            <Image src="/ce.jpg" alt="Logo" className="h-12 w-12" width={200} height={200}/>
           </Link>
 
           <div className="hidden lg:flex items-center gap-10 text-sm font-semibold text-white/90">
